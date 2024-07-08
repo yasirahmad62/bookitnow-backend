@@ -1,0 +1,389 @@
+[
+    {
+      "id": "event_001",
+      "event_type": "theater",
+      "title": "Hamilton: An American Musical",
+      "rating": 4.9,
+      "votes": "28.7K",
+      "duration": "2h 45m",
+      "releaseDate": "10 Sep, 2024",
+      "genres": ["Musical", "Historical"],
+      "languages": ["English"],
+      "formats": ["Live Performance"],
+      "imgSrc": "https://i.pinimg.com/originals/36/69/8b/36698b976b53733eed94fa131e35caf9.jpg",
+      "bgImage": "https://i.pinimg.com/originals/36/69/8b/36698b976b53733eed94fa131e35caf9.jpg",
+      "description": "Experience the revolution that is Hamilton, the Tony Award-winning musical that tells the story of American Founding Father Alexander Hamilton through a blend of hip-hop, jazz, R&B, and Broadway.",
+      "cast": [
+        {
+          "name": "Joseph Morales",
+          "role": "Alexander Hamilton"
+        },
+        {
+          "name": "Nik Walker",
+          "role": "Aaron Burr"
+        }
+      ],
+      "crew": [
+        {
+          "name": "Lin-Manuel Miranda",
+          "role": "Writer and Composer"
+        },
+        {
+          "name": "Thomas Kail",
+          "role": "Director"
+        }
+      ],
+      "showtimes": {
+        "Toronto": [
+          {
+            "theater": {
+              "id": "tor_theater_001",
+              "name": "Ed Mirvish Theatre",
+              "location": "244 Victoria St, Toronto, ON",
+              "facilities": ["Accessible Seating", "Bar Service"],
+              "nonCancellable": true,
+              "pricing": [
+                { "type": "Orchestra", "amount": 199, "status": "Limited" },
+                { "type": "Mezzanine", "amount": 149, "status": "Available" }
+              ]
+            },
+            "formats": ["Live Performance"],
+            "languages": ["English"],
+            "availability": [
+              {
+                "time": "8:00 PM",
+                "status": "available",
+                "availableSeats": 1200,
+                "seating_plan": {
+                  "seating_plan_id": "tor_001_001",
+                  "booked_seats": []
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "userReviews": [
+        {
+          "rating": 5.0,
+          "title": "Mind-blowing performance!",
+          "description": "Hamilton exceeded all my expectations. The energy, the music, the performances - all absolutely stellar!",
+          "author": "Amanda Lee"
+        },
+        {
+          "rating": 4.8,
+          "title": "A must-see theatrical experience",
+          "description": "Brilliant storytelling through music. It's entertaining, educational, and emotionally powerful.",
+          "author": "Carlos Rodriguez"
+        }
+      ]
+    },
+    {
+      "id": "event_002",
+      "event_type": "music",
+      "title": "Electric Dreams Festival",
+      "rating": 4.7,
+      "votes": "15.3K",
+      "duration": "3 days",
+      "releaseDate": "15 Jul, 2024",
+      "genres": ["Electronic", "Dance", "House"],
+      "languages": ["Various"],
+      "formats": ["Live Performance"],
+      "imgSrc": "https://www.thereviewshub.com/wp-content/uploads/gutmvwxa3ld6shqrqdng.png",
+      "bgImage": "https://www.thereviewshub.com/wp-content/uploads/gutmvwxa3ld6shqrqdng.png",
+      "description": "Immerse yourself in the beats of the future at Electric Dreams Festival, featuring world-renowned DJs and electronic music artists across multiple stages.",
+      "cast": [
+        {
+          "name": "Deadmau5",
+          "role": "Headliner"
+        },
+        {
+          "name": "Charlotte de Witte",
+          "role": "Featured Artist"
+        }
+      ],
+      "crew": [
+        {
+          "name": "Live Nation",
+          "role": "Event Organizer"
+        },
+        {
+          "name": "SFX Entertainment",
+          "role": "Production Company"
+        }
+      ],
+      "showtimes": {
+        "Toronto": [
+          {
+            "theater": {
+              "id": "tor_venue_001",
+              "name": "Downsview Park",
+              "location": "70 Canuck Ave, North York, ON",
+              "facilities": ["Food Vendors", "VIP Areas", "First Aid"],
+              "nonCancellable": false,
+              "pricing": [
+                { "type": "3-Day Pass", "amount": 299, "status": "Available" },
+                { "type": "VIP Pass", "amount": 499, "status": "Limited" }
+              ]
+            },
+            "formats": ["Live Performance"],
+            "languages": ["Various"],
+            "availability": [
+              {
+                "time": "12:00 PM",
+                "status": "available",
+                "availableSeats": 50000,
+                "seating_plan": {
+                  "seating_plan_id": "tor_002_001",
+                  "booked_seats": []
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "userReviews": [
+        {
+          "rating": 4.8,
+          "title": "Unforgettable weekend!",
+          "description": "Amazing lineup, great vibes, and top-notch organization. Can't wait for next year!",
+          "author": "Sophia Chen"
+        },
+        {
+          "rating": 4.5,
+          "title": "Electronic music heaven",
+          "description": "Fantastic festival with a diverse range of artists. The sound systems were incredible!",
+          "author": "Alex Thompson"
+        }
+      ]
+    },
+    {
+      "id": "event_003",
+      "event_type": "comedy",
+      "title": "Trevor Noah: Off the Record Tour",
+      "rating": 4.8,
+      "votes": "12.6K",
+      "duration": "1h 30m",
+      "releaseDate": "22 Oct, 2024",
+      "genres": ["Stand-up Comedy"],
+      "languages": ["English"],
+      "formats": ["Live Performance"],
+      "imgSrc": "https://www.livenationentertainment.com/wp-content/uploads/2022/11/Static_FacebookPR_1200x630_TrevorNoah_2023_National.jpg",
+      "bgImage": "https://www.livenationentertainment.com/wp-content/uploads/2022/11/Static_FacebookPR_1200x630_TrevorNoah_2023_National.jpg",
+      "description": "Join Trevor Noah, the Emmy Award-winning comedian and former host of The Daily Show, for a night of sharp wit and insightful humor in his latest stand-up tour.",
+      "cast": [
+        {
+          "name": "Trevor Noah",
+          "role": "Comedian"
+        }
+      ],
+      "crew": [
+        {
+          "name": "Live Nation",
+          "role": "Tour Promoter"
+        },
+        {
+          "name": "Just For Laughs",
+          "role": "Event Producer"
+        }
+      ],
+      "showtimes": {
+        "Toronto": [
+          {
+            "theater": {
+              "id": "tor_arena_002",
+              "name": "Scotiabank Arena",
+              "location": "40 Bay St, Toronto, ON",
+              "facilities": ["Accessible Seating", "Concessions"],
+              "nonCancellable": true,
+              "pricing": [
+                { "type": "Floor Seats", "amount": 129, "status": "Limited" },
+                { "type": "Lower Bowl", "amount": 89, "status": "Available" }
+              ]
+            },
+            "formats": ["Live Performance"],
+            "languages": ["English"],
+            "availability": [
+              {
+                "time": "8:00 PM",
+                "status": "available",
+                "availableSeats": 15000,
+                "seating_plan": {
+                  "seating_plan_id": "tor_003_001",
+                  "booked_seats": []
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "userReviews": [
+        {
+          "rating": 5.0,
+          "title": "Hilarious and thought-provoking",
+          "description": "Trevor Noah delivers a perfect blend of comedy and social commentary. Laughed the entire time!",
+          "author": "Emily Watson"
+        },
+        {
+          "rating": 4.7,
+          "title": "Brilliant performance",
+          "description": "Noah's ability to find humor in complex topics is unmatched. A must-see show!",
+          "author": "Michael Lee"
+        }
+      ]
+    },
+    {
+      "id": "event_004",
+      "event_type": "theater",
+      "title": "Cirque du Soleil: Alegría",
+      "rating": 4.9,
+      "votes": "18.9K",
+      "duration": "2h 30m",
+      "releaseDate": "5 Jun, 2024",
+      "genres": ["Circus", "Acrobatics"],
+      "languages": ["Non-verbal"],
+      "formats": ["Live Performance"],
+      "imgSrc": "https://www.insidevancouver.ca/wp-content/uploads/2021/11/89_Alegria2019_MALemire.jpeg",
+      "bgImage": "https://www.insidevancouver.ca/wp-content/uploads/2021/11/89_Alegria2019_MALemire.jpeg",
+      "description": "Experience the magic of Cirque du Soleil's classic Alegría, reimagined for a new generation, featuring breathtaking acrobatics, stunning costumes, and enchanting music.",
+      "cast": [
+        {
+          "name": "Cirque du Soleil Performers",
+          "role": "Acrobats and Artists"
+        }
+      ],
+      "crew": [
+        {
+          "name": "Franco Dragone",
+          "role": "Original Creator"
+        },
+        {
+          "name": "Jean-Guy Legault",
+          "role": "Director of Creation"
+        }
+      ],
+      "showtimes": {
+        "Vancouver": [
+          {
+            "theater": {
+              "id": "van_venue_001",
+              "name": "Concord Pacific Place",
+              "location": "88 Pacific Boulevard, Vancouver, BC",
+              "facilities": ["Accessible Seating", "Merchandise", "Parking"],
+              "nonCancellable": false,
+              "pricing": [
+                { "type": "Premium", "amount": 150, "status": "Limited" },
+                { "type": "Regular", "amount": 95, "status": "Available" }
+              ]
+            },
+            "formats": ["Live Performance"],
+            "languages": ["Non-verbal"],
+            "availability": [
+              {
+                "time": "8:00 PM",
+                "status": "available",
+                "availableSeats": 2500,
+                "seating_plan": {
+                  "seating_plan_id": "van_004_001",
+                  "booked_seats": []
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "userReviews": [
+        {
+          "rating": 5.0,
+          "title": "Mesmerizing spectacle",
+          "description": "Alegría is a feast for the senses. The acrobatics are incredible and the music is haunting. A true masterpiece!",
+          "author": "Sarah Johnson"
+        },
+        {
+          "rating": 4.8,
+          "title": "Cirque at its best",
+          "description": "Beautiful costumes, amazing performances, and a touching story. Alegría showcases why Cirque du Soleil is world-renowned.",
+          "author": "David Chen"
+        }
+      ]
+    },
+    {
+      "id": "event_005",
+      "event_type": "festival",
+      "title": "Montreal International Jazz Festival",
+      "rating": 4.7,
+      "votes": "22.4K",
+      "duration": "10 days",
+      "releaseDate": "28 Jun, 2024",
+      "genres": ["Jazz", "Blues", "World Music"],
+      "languages": ["Various"],
+      "formats": ["Live Performance", "Outdoor Concert"],
+      "imgSrc": "https://followthebeat.nl/assets/uploads/2024/03/b283b8ab-c5d0-40eb-8be0-4301afe07bbf.jpg",
+      "bgImage": "https://followthebeat.nl/assets/uploads/2024/03/b283b8ab-c5d0-40eb-8be0-4301afe07bbf.jpg",
+      "description": "Immerse yourself in the world's largest jazz festival, featuring hundreds of concerts across indoor and outdoor venues, showcasing both legendary artists and rising stars.",
+      "cast": [
+        {
+          "name": "Herbie Hancock",
+          "role": "Headliner"
+        },
+        {
+          "name": "Norah Jones",
+          "role": "Featured Artist"
+        }
+      ],
+      "crew": [
+        {
+          "name": "L'Équipe Spectra",
+          "role": "Festival Organizer"
+        },
+        {
+          "name": "Laurent Saulnier",
+          "role": "VP of Programming"
+        }
+      ],
+      "showtimes": {
+        "Montreal": [
+          {
+            "theater": {
+              "id": "mtl_venue_002",
+              "name": "Quartier des Spectacles",
+              "location": "1499 Jeanne-Mance St, Montreal, QC",
+              "facilities": ["Food Vendors", "Merchandise", "Information Kiosks"],
+              "nonCancellable": false,
+              "pricing": [
+                { "type": "All-Access Pass", "amount": 350, "status": "Limited" },
+                { "type": "Individual Concert", "amount": 45, "status": "Available" }
+              ]
+            },
+            "formats": ["Live Performance", "Outdoor Concert"],
+            "languages": ["Various"],
+            "availability": [
+              {
+                "time": "12:00 PM",
+                "status": "available",
+                "availableSeats": 100000,
+                "seating_plan": {
+                  "seating_plan_id": "mtl_005_001",
+                  "booked_seats": []
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "userReviews": [
+        {
+          "rating": 4.8,
+          "title": "Jazz lover's paradise",
+          "description": "An incredible lineup of artists and a fantastic atmosphere throughout the city. A must-visit for any music enthusiast!",
+          "author": "Marie Dupont"
+        },
+        {
+          "rating": 4.6,
+          "title": "Vibrant festival experience",
+          "description": "Great mix of free outdoor shows and ticketed concerts. The energy in Montreal during the festival is unbeatable!",
+          "author": "John Smith"
+        }
+      ]
+    }
+  ]

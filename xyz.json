@@ -1,0 +1,196 @@
+[{
+    "id": "unique_id_for_movie_or_event",
+    "event_type": "movies",
+    "title": "Bad Boys: Ride or Die",
+    "rating": 8.6,
+    "votes": "19.6K",
+    "duration": "1h 57m",
+    "releaseDate": "6 Jun, 2024",
+    "genres": ["Action", "Adventure", "Comedy"],
+    "languages": ["English", "Hindi", "French", "Spanish"],
+    "formats": ["2D", "ICE", "MX4D", "4DX", "2D SCREEN X", "IMAX 2D"],
+    "imgSrc": "https://assets-in.bmscdn.com/iedb/movies/images/mobile/thumbnail/xlarge/bad-boys-ride-or-die-et00383487-1719560098.jpg",
+    "bgImage": "https://assets-in.bmscdn.com/iedb/movies/images/mobile/listing/xxlarge/bad-boys-ride-or-die-et00383487-1719560098.jpg",
+    "description": "Bad Boys delivers on every front with non-stop action and a great storyline. Will Smith and Martin Lawrence have fantastic chemistry, making every scene entertaining. Highly recommend for action movie enthusiasts!",
+    "cast": [
+        {
+            "name": "Will Smith",
+            "role": "Mike Lowrey"
+        },
+        {
+            "name": "Martin Lawrence",
+            "role": "Marcus Burnett"
+        }
+    ],
+    "crew": [
+        {
+            "name": "Michael Bay",
+            "role": "Director"
+        },
+        {
+            "name": "Jerry Bruckheimer",
+            "role": "Producer"
+        }
+    ],
+    "showtimes": {
+        "Toronto": [
+            {
+                "theater": {
+                    "id": "unique_theater_id_2",
+                    "name": "Cineplex Odeon, Toronto",
+                    "location": "123 Movie Lane, Toronto, ON",
+                    "facilities": ["M-Ticket", "Food & Beverage", "Parking"],
+                    "nonCancellable": false,
+                    "pricing": [
+                        { "type": "Normal", "amount": 12, "status": "Available" },
+                        { "type": "Executive", "amount": 15, "status": "Available" },
+                        { "type": "Premium", "amount": 18, "status": "Filling Fast" },
+                        { "type": "VIP", "amount": 25, "status": "Available" }
+                    ]
+                },
+                "formats": ["2D", "3D"],
+                "languages": ["English", "French"],
+                "availability": [
+                    {
+                      "time": "9:30 AM",
+                      "status": "available",
+                      "availableSeats": 95,
+                      "seating_plan": {
+                        "seating_plan_id": "xyz1234566",
+                        "booked_seats": [
+                        ]
+                      }
+                    },
+                    {
+                      "time": "1:00 PM",
+                      "status": "available",
+                      "availableSeats": 92,
+                      "seating_plan": {
+                        "seating_plan_id": "xyz1234567",
+                        "booked_seats": [
+                        ]
+                      }
+                    },
+                    {
+                      "time": "4:30 PM",
+                      "status": "available",
+                      "availableSeats": 90,
+                      "seating_plan": {
+                        "seating_plan_id": "xyz1234568",
+                        "booked_seats": [
+                        ]
+                      }
+                    }
+                  ]      
+            },
+            {
+                "theater": {
+                    "id": "unique_theater_id_3",
+                    "name": "Scotiabank Theatre, Toronto",
+                    "location": "456 Film Blvd, Toronto, ON",
+                    "facilities": ["M-Ticket", "Food & Beverage"],
+                    "nonCancellable": true,
+                    "pricing": [
+                        { "type": "Normal", "amount": 13, "status": "Available" },
+                        { "type": "Executive", "amount": 16, "status": "Available" },
+                        { "type": "Premium", "amount": 19, "status": "Filling Fast" },
+                        { "type": "VIP", "amount": 27, "status": "Available" }
+                    ]
+                },
+                "formats": ["2D", "IMAX"],
+                "languages": ["English"],
+                "availability": [
+                    {
+                      "time": "9:30 AM",
+                      "status": "available",
+                      "availableSeats": 95,
+                      "seating_plan": {
+                        "seating_plan_id": "xyz1234566",
+                        "booked_seats": [
+                        ]
+                      }
+                    },
+                    {
+                      "time": "1:00 PM",
+                      "status": "available",
+                      "availableSeats": 92,
+                      "seating_plan": {
+                        "seating_plan_id": "xyz1234567",
+                        "booked_seats": [
+                        ]
+                      }
+                    },
+                    {
+                      "time": "4:30 PM",
+                      "status": "available",
+                      "availableSeats": 90,
+                      "seating_plan": {
+                        "seating_plan_id": "xyz1234568",
+                        "booked_seats": [
+                        ]
+                      }
+                    }
+                  ]      
+            }
+        ]
+    },
+    "pricing": {
+        "currency": "CAD",
+        "basePrice": 30,
+        "convenienceFee": 30,
+        "taxes": 18
+    },
+    "seating": {
+        "layout": "URL_to_seating_layout_image_or_data",
+        "seatAvailability": [
+            {
+                "section": "A",
+                "seats": [
+                    {
+                        "seatNumber": "A1",
+                        "status": "available"
+                    },
+                    {
+                        "seatNumber": "A2",
+                        "status": "booked"
+                    }
+                ]
+            },
+            {
+                "section": "B",
+                "seats": [
+                    {
+                        "seatNumber": "B1",
+                        "status": "available"
+                    },
+                    {
+                        "seatNumber": "B2",
+                        "status": "available"
+                    }
+                ]
+            }
+        ]
+    },
+    "tickets": [
+        {
+            "type": "Standard",
+            "price": 30,
+            "currency": "CAD",
+            "availability": "available"
+        },
+        {
+            "type": "Premium",
+            "price": 500,
+            "currency": "CAD",
+            "availability": "available"
+        }
+    ],
+    "userReviews": [
+        {
+            "rating": 4.5,
+            "title": "Action-Packed Thrill Ride",
+            "description": "Bad Boys delivers on every front with non-stop action and a great storyline. Will Smith and Martin Lawrence have fantastic chemistry, making every scene entertaining. Highly recommend for action movie enthusiasts!",
+            "author": "John Doe"
+        }
+    ]
+}]

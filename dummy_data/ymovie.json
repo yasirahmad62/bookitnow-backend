@@ -1,0 +1,446 @@
+[
+    {
+        "_id": "6686dee50ee9d5b0c6d1bb56",
+        "id": "sport_0001",
+        "event_type": "sports",
+        "title": "Toronto Blue Jays vs New York Yankees",
+        "rating": 4.8,
+        "votes": "22.3K",
+        "duration": "3h",
+        "releaseDate": "15 Jul, 2024",
+        "genres": ["Baseball", "MLB"],
+        "languages": ["English"],
+        "formats": ["Outdoor"],
+        "imgSrc": "https://seatgeek.ca/_next/image?url=https%3A%2F%2Fseatgeek.com%2Fimages%2Fperformers-landscape%2Fnew-york-yankees-c669dc%2F8%2F1500x2000.jpg&w=3840&q=75",
+        "bgImage": "https://seatgeek.ca/_next/image?url=https%3A%2F%2Fseatgeek.com%2Fimages%2Fperformers-landscape%2Fnew-york-yankees-c669dc%2F8%2F1500x2000.jpg&w=3840&q=75",
+        "description": "Watch the Toronto Blue Jays take on the New York Yankees in this thrilling MLB matchup at Rogers Centre.",
+        "cast": [
+            { "name": "Vladimir Guerrero Jr.", "role": "First Baseman, Blue Jays" },
+            { "name": "Aaron Judge", "role": "Outfielder, Yankees" }
+        ],
+        "crew": [
+            { "name": "John Schneider", "role": "Manager, Blue Jays" },
+            { "name": "Aaron Boone", "role": "Manager, Yankees" }
+        ],
+        "showtimes": {
+            "Toronto": [
+                {
+                    "theater": {
+                        "id": "tor_stadium_001",
+                        "name": "Rogers Centre",
+                        "location": "1 Blue Jays Way, Toronto, ON",
+                        "facilities": ["Food & Beverage", "Parking"],
+                        "nonCancellable": false,
+                        "pricing": [
+                            { "type": "Standard", "amount": 50, "status": "Available" },
+                            { "type": "Premium", "amount": 120, "status": "Filling Fast" }
+                        ]
+                    },
+                    "formats": ["Indoor"],
+                    "languages": ["English"],
+                    "availability": [
+                        {
+                            "time": "7:00 PM",
+                            "status": "available",
+                            "availableSeats": 100,
+                            "seating_plan": {
+                                "seating_plan_id": "tor_001_001",
+                                "booked_seats": []
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        "pricing": {
+            "currency": "CAD",
+            "basePrice": 50,
+            "convenienceFee": 5,
+            "taxes": 7
+        },
+        "tickets": [
+            { "type": "Standard", "price": 50, "currency": "CAD", "availability": "available" },
+            { "type": "Premium", "price": 120, "currency": "CAD", "availability": "available" }
+        ],
+        "userReviews": [],
+        "recommended_events": [
+            {
+                "title": "Toronto Blue Jays vs New York Yankees",
+                "image": "https://seatgeek.ca/_next/image?url=https%3A%2F%2Fseatgeek.com%2Fimages%2Fperformers-landscape%2Fnew-york-yankees-c669dc%2F8%2F1500x2000.jpg&w=3840&q=75",
+                "genre": "Baseball",
+                "rating": 4.8,
+                "votes": "22.3K"
+            },
+            {
+                "title": "Toronto Raptors vs Boston Celtics",
+                "image": "https://seatgeek.ca/_next/image?url=https%3A%2F%2Fseatgeek.com%2Fimages%2Fperformers-landscape%2Fboston-celtics-e2a099%2F2088%2F1500x2000.jpg&w=3840&q=75",
+                "genre": "Basketball",
+                "rating": 4.7,
+                "votes": "18.9K"
+            },
+            {
+                "title": "Vancouver Canadians vs Spokane Indians",
+                "image": "https://thumb.spokesman.com/us6ti0Phg_A3pERLwSVkF5rCcqY=/2500x1405/smart/media.spokesman.com/photos/2024/06/13/666bc2ac0a689.hires.png",
+                "genre": "Baseball",
+                "rating": 4.5,
+                "votes": "8.7K"
+            }
+        ],
+        "nearby_events": [
+            {
+                "title": "Canadian Women's Open - Final Round",
+                "image": "https://d15lf7fxgyvh8x.cloudfront.net/app/uploads/2022/11/2022_CPWO_AWARD-16x9-1668729780.jpg",
+                "genre": "Golf",
+                "rating": 4.7,
+                "votes": "9.8K"
+            },
+            {
+                "title": "Montreal Impact vs Toronto FC",
+                "image": "https://seatgeek.ca/_next/image?url=https%3A%2F%2Fseatgeek.com%2Fimages%2Fperformers-landscape%2Fcf-montreal-69b735%2F9713%2F1500x2000.jpg&w=3840&q=75",
+                "genre": "Soccer",
+                "rating": 4.6,
+                "votes": "14.2K"
+            },
+            {
+                "title": "Calgary Flames vs Edmonton Oilers",
+                "image": "https://seatgeek.ca/_next/image?url=https%3A%2F%2Fseatgeek.com%2Fimages%2Fperformers-landscape%2Fedmonton-oilers-0fa541%2F2140%2F1500x2000.jpg&w=3840&q=75",
+                "genre": "Ice Hockey",
+                "rating": 4.9,
+                "votes": "19.5K"
+            }
+        ]
+    },
+    {
+        "_id": "6686dee50ee9d5b0c6d1bb57",
+        "id": "sport_0002",
+        "event_type": "sports",
+        "title": "Toronto Raptors vs Boston Celtics",
+        "rating": 4.7,
+        "votes": "18.9K",
+        "duration": "2h 30m",
+        "releaseDate": "10 Nov, 2024",
+        "genres": ["Basketball", "NBA"],
+        "languages": ["English"],
+        "formats": ["Indoor"],
+        "imgSrc": "https://seatgeek.ca/_next/image?url=https%3A%2F%2Fseatgeek.com%2Fimages%2Fperformers-landscape%2Fboston-celtics-e2a099%2F2088%2F1500x2000.jpg&w=3840&q=75",
+        "bgImage": "https://seatgeek.ca/_next/image?url=https%3A%2F%2Fseatgeek.com%2Fimages%2Fperformers-landscape%2Fboston-celtics-e2a099%2F2088%2F1500x2000.jpg&w=3840&q=75",
+        "description": "Experience the excitement of the NBA as the Toronto Raptors face off against the Boston Celtics at the Scotiabank Arena.",
+        "cast": [
+            { "name": "Pascal Siakam", "role": "Forward, Raptors" },
+            { "name": "Jayson Tatum", "role": "Forward, Celtics" }
+        ],
+        "crew": [
+            { "name": "Nick Nurse", "role": "Coach, Raptors" },
+            { "name": "Joe Mazzulla", "role": "Coach, Celtics" }
+        ],
+        "showtimes": {
+            "Toronto": [
+                {
+                    "theater": {
+                        "id": "tor_arena_001",
+                        "name": "Scotiabank Arena",
+                        "location": "40 Bay St, Toronto, ON",
+                        "facilities": ["Food & Beverage", "Parking"],
+                        "nonCancellable": false,
+                        "pricing": [
+                            { "type": "Standard", "amount": 80, "status": "Available" },
+                            { "type": "Premium", "amount": 150, "status": "Filling Fast" }
+                        ]
+                    },
+                    "formats": ["Indoor"],
+                    "languages": ["English"],
+                    "availability": [
+                        {
+                            "time": "7:30 PM",
+                            "status": "available",
+                            "availableSeats": 100,
+                            "seating_plan": {
+                                "seating_plan_id": "tor_001_002",
+                                "booked_seats": []
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        "pricing": {
+            "currency": "CAD",
+            "basePrice": 80,
+            "convenienceFee": 5,
+            "taxes": 10
+        },
+        "tickets": [
+            { "type": "Standard", "price": 80, "currency": "CAD", "availability": "available" },
+            { "type": "Premium", "price": 150, "currency": "CAD", "availability": "available" }
+        ],
+        "userReviews": [],
+        "recommended_events": [
+            {
+                "title": "Toronto Blue Jays vs New York Yankees",
+                "image": "https://seatgeek.ca/_next/image?url=https%3A%2F%2Fseatgeek.com%2Fimages%2Fperformers-landscape%2Fnew-york-yankees-c669dc%2F8%2F1500x2000.jpg&w=3840&q=75",
+                "genre": "Baseball",
+                "rating": 4.8,
+                "votes": "22.3K"
+            },
+            {
+                "title": "Toronto Maple Leafs vs Montreal Canadiens",
+                "image": "https://seatgeek.ca/_next/image?url=https%3A%2F%2Fseatgeek.com%2Fimages%2Fperformers-landscape%2Fmontreal-canadiens-857f89%2F3120%2F1500x2000.jpg&w=3840&q=75",
+                "genre": "Ice Hockey",
+                "rating": 4.9,
+                "votes": "21.5K"
+            },
+            {
+                "title": "Toronto FC vs Vancouver Whitecaps",
+                "image": "https://seatgeek.ca/_next/image?url=https%3A%2F%2Fseatgeek.com%2Fimages%2Fperformers-landscape%2Fvancouver-whitecaps-fc-9c8e63%2F3858%2F1500x2000.jpg&w=3840&q=75",
+                "genre": "Soccer",
+                "rating": 4.6,
+                "votes": "17.4K"
+            }
+        ],
+        "nearby_events": [
+            {
+                "title": "Canadian Women's Open - Final Round",
+                "image": "https://d15lf7fxgyvh8x.cloudfront.net/app/uploads/2022/11/2022_CPWO_AWARD-16x9-1668729780.jpg",
+                "genre": "Golf",
+                "rating": 4.7,
+                "votes": "9.8K"
+            },
+            {
+                "title": "Montreal Impact vs Toronto FC",
+                "image": "https://seatgeek.ca/_next/image?url=https%3A%2F%2Fseatgeek.com%2Fimages%2Fperformers-landscape%2Fcf-montreal-69b735%2F9713%2F1500x2000.jpg&w=3840&q=75",
+                "genre": "Soccer",
+                "rating": 4.6,
+                "votes": "14.2K"
+            },
+            {
+                "title": "Calgary Flames vs Edmonton Oilers",
+                "image": "https://seatgeek.ca/_next/image?url=https%3A%2F%2Fseatgeek.com%2Fimages%2Fperformers-landscape%2Fedmonton-oilers-0fa541%2F2140%2F1500x2000.jpg&w=3840&q=75",
+                "genre": "Ice Hockey",
+                "rating": 4.9,
+                "votes": "19.5K"
+            }
+        ]
+    },
+    {
+        "_id": "6686dee50ee9d5b0c6d1bb58",
+        "id": "sport_00003",
+        "event_type": "sports",
+        "title": "Vancouver Canucks vs Calgary Flames",
+        "rating": 4.8,
+        "votes": "20.1K",
+        "duration": "2h 45m",
+        "releaseDate": "30 Nov, 2024",
+        "genres": ["Ice Hockey", "NHL"],
+        "languages": ["English", "French"],
+        "formats": ["Indoor"],
+        "imgSrc": "https://seatgeek.ca/_next/image?url=https%3A%2F%2Fseatgeek.com%2Fimages%2Fperformers-landscape%2Fcalgary-flames-841ed3%2F8503%2F1500x2000.jpg&w=3840&q=75",
+        "bgImage": "https://seatgeek.ca/_next/image?url=https%3A%2F%2Fseatgeek.com%2Fimages%2Fperformers-landscape%2Fcalgary-flames-841ed3%2F8503%2F1500x2000.jpg&w=3840&q=75",
+        "description": "Join the action at Rogers Arena as the Vancouver Canucks face off against the Calgary Flames. This NHL showdown is a must-see event!",
+        "cast": [
+            { "name": "Elias Pettersson", "role": "Center, Canucks" },
+            { "name": "Johnny Gaudreau", "role": "Left Wing, Flames" }
+        ],
+        "crew": [
+            { "name": "Travis Green", "role": "Coach, Canucks" },
+            { "name": "Darryl Sutter", "role": "Coach, Flames" }
+        ],
+        "showtimes": {
+            "Vancouver": [
+                {
+                    "theater": {
+                        "id": "van_arena_001",
+                        "name": "Rogers Arena",
+                        "location": "800 Griffiths Way, Vancouver, BC",
+                        "facilities": ["Food & Beverage", "Parking"],
+                        "nonCancellable": false,
+                        "pricing": [
+                            { "type": "Standard", "amount": 90, "status": "Available" },
+                            { "type": "Premium", "amount": 180, "status": "Filling Fast" }
+                        ]
+                    },
+                    "formats": ["Indoor"],
+                    "languages": ["English"],
+                    "availability": [
+                        {
+                            "time": "7:00 PM",
+                            "status": "available",
+                            "availableSeats": 100,
+                            "seating_plan": {
+                                "seating_plan_id": "van_001_001",
+                                "booked_seats": []
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        "pricing": {
+            "currency": "CAD",
+            "basePrice": 90,
+            "convenienceFee": 8,
+            "taxes": 12
+        },
+        "tickets": [
+            { "type": "Standard", "price": 90, "currency": "CAD", "availability": "available" },
+            { "type": "Premium", "price": 180, "currency": "CAD", "availability": "available" }
+        ],
+        "userReviews": [],
+        "recommended_events": [
+            {
+                "title": "Vancouver Whitecaps vs Seattle Sounders",
+                "image": "https://seatgeek.ca/_next/image?url=https%3A%2F%2Fseatgeek.com%2Fimages%2Fperformers-landscape%2Fseattle-sounders-fc-48de93%2F8857%2F1500x2000.jpg&w=3840&q=75",
+                "genre": "Soccer",
+                "rating": 4.7,
+                "votes": "16.8K"
+            },
+            {
+                "title": "Vancouver Canadians vs Spokane Indians",
+                "image": "https://thumb.spokesman.com/us6ti0Phg_A3pERLwSVkF5rCcqY=/2500x1405/smart/media.spokesman.com/photos/2024/06/13/666bc2ac0a689.hires.png",
+                "genre": "Baseball",
+                "rating": 4.5,
+                "votes": "8.7K"
+            },
+            {
+                "title": "Toronto FC vs Vancouver Whitecaps",
+                "image": "https://seatgeek.ca/_next/image?url=https%3A%2F%2Fseatgeek.com%2Fimages%2Fperformers-landscape%2Fvancouver-whitecaps-fc-9c8e63%2F3858%2F1500x2000.jpg&w=3840&q=75",
+                "genre": "Soccer",
+                "rating": 4.6,
+                "votes": "17.4K"
+            }
+        ],
+        "nearby_events": [
+            {
+                "title": "Canadian Women's Open - Final Round",
+                "image": "https://d15lf7fxgyvh8x.cloudfront.net/app/uploads/2022/11/2022_CPWO_AWARD-16x9-1668729780.jpg",
+                "genre": "Golf",
+                "rating": 4.7,
+                "votes": "9.8K"
+            },
+            {
+                "title": "Calgary Flames vs Edmonton Oilers",
+                "image": "https://seatgeek.ca/_next/image?url=https%3A%2F%2Fseatgeek.com%2Fimages%2Fperformers-landscape%2Fedmonton-oilers-0fa541%2F2140%2F1500x2000.jpg&w=3840&q=75",
+                "genre": "Ice Hockey",
+                "rating": 4.9,
+                "votes": "19.5K"
+            },
+            {
+                "title": "Montreal Impact vs Toronto FC",
+                "image": "https://seatgeek.ca/_next/image?url=https%3A%2F%2Fseatgeek.com%2Fimages%2Fperformers-landscape%2Fcf-montreal-69b735%2F9713%2F1500x2000.jpg&w=3840&q=75",
+                "genre": "Soccer",
+                "rating": 4.6,
+                "votes": "14.2K"
+            }
+        ]
+    },
+    {
+        "_id": "6686dee50ee9d5b0c6d1bb59",
+        "id": "sport_0004",
+        "event_type": "sports",
+        "title": "Vancouver Whitecaps vs Seattle Sounders",
+        "rating": 4.7,
+        "votes": "16.8K",
+        "duration": "2h 30m",
+        "releaseDate": "12 Aug, 2024",
+        "genres": ["Soccer", "MLS"],
+        "languages": ["English", "Spanish"],
+        "formats": ["Outdoor"],
+        "imgSrc": "https://seatgeek.ca/_next/image?url=https%3A%2F%2Fseatgeek.com%2Fimages%2Fperformers-landscape%2Fseattle-sounders-fc-48de93%2F8857%2F1500x2000.jpg&w=3840&q=75",
+        "bgImage": "https://seatgeek.ca/_next/image?url=https%3A%2F%2Fseatgeek.com%2Fimages%2Fperformers-landscape%2Fseattle-sounders-fc-48de93%2F8857%2F1500x2000.jpg&w=3840&q=75",
+        "description": "Catch the exciting match between Vancouver Whitecaps and Seattle Sounders at BC Place Stadium. A thrilling MLS experience awaits!",
+        "cast": [
+            { "name": "Lucas Cavallini", "role": "Forward, Whitecaps" },
+            { "name": "Raul Ruidiaz", "role": "Forward, Sounders" }
+        ],
+        "crew": [
+            { "name": "Marc Dos Santos", "role": "Coach, Whitecaps" },
+            { "name": "Brian Schmetzer", "role": "Coach, Sounders" }
+        ],
+        "showtimes": {
+            "Vancouver": [
+                {
+                    "theater": {
+                        "id": "van_stadium_001",
+                        "name": "BC Place Stadium",
+                        "location": "777 Pacific Blvd, Vancouver, BC",
+                        "facilities": ["Food & Beverage", "Parking"],
+                        "nonCancellable": false,
+                        "pricing": [
+                            { "type": "Standard", "amount": 60, "status": "Available" },
+                            { "type": "Premium", "amount": 130, "status": "Filling Fast" }
+                        ]
+                    },
+                    "formats": ["Outdoor"],
+                    "languages": ["English"],
+                    "availability": [
+                        {
+                            "time": "7:30 PM",
+                            "status": "available",
+                            "availableSeats": 100,
+                            "seating_plan": {
+                                "seating_plan_id": "van_001_002",
+                                "booked_seats": []
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        "pricing": {
+            "currency": "CAD",
+            "basePrice": 60,
+            "convenienceFee": 5,
+            "taxes": 7
+        },
+        "tickets": [
+            { "type": "Standard", "price": 60, "currency": "CAD", "availability": "available" },
+            { "type": "Premium", "price": 130, "currency": "CAD", "availability": "available" }
+        ],
+        "userReviews": [],
+        "recommended_events": [
+            {
+                "title": "Vancouver Canucks vs Calgary Flames",
+                "image": "https://seatgeek.ca/_next/image?url=https%3A%2F%2Fseatgeek.com%2Fimages%2Fperformers-landscape%2Fcalgary-flames-841ed3%2F8503%2F1500x2000.jpg&w=3840&q=75",
+                "genre": "Ice Hockey",
+                "rating": 4.8,
+                "votes": "20.1K"
+            },
+            {
+                "title": "Toronto FC vs Vancouver Whitecaps",
+                "image": "https://seatgeek.ca/_next/image?url=https%3A%2F%2Fseatgeek.com%2Fimages%2Fperformers-landscape%2Fvancouver-whitecaps-fc-9c8e63%2F3858%2F1500x2000.jpg&w=3840&q=75",
+                "genre": "Soccer",
+                "rating": 4.6,
+                "votes": "17.4K"
+            },
+            {
+                "title": "Vancouver Canadians vs Spokane Indians",
+                "image": "https://thumb.spokesman.com/us6ti0Phg_A3pERLwSVkF5rCcqY=/2500x1405/smart/media.spokesman.com/photos/2024/06/13/666bc2ac0a689.hires.png",
+                "genre": "Baseball",
+                "rating": 4.5,
+                "votes": "8.7K"
+            }
+        ],
+        "nearby_events": [
+            {
+                "title": "Canadian Women's Open - Final Round",
+                "image": "https://d15lf7fxgyvh8x.cloudfront.net/app/uploads/2022/11/2022_CPWO_AWARD-16x9-1668729780.jpg",
+                "genre": "Golf",
+                "rating": 4.7,
+                "votes": "9.8K"
+            },
+            {
+                "title": "Calgary Flames vs Edmonton Oilers",
+                "image": "https://seatgeek.ca/_next/image?url=https%3A%2F%2Fseatgeek.com%2Fimages%2Fperformers-landscape%2Fedmonton-oilers-0fa541%2F2140%2F1500x2000.jpg&w=3840&q=75",
+                "genre": "Ice Hockey",
+                "rating": 4.9,
+                "votes": "19.5K"
+            },
+            {
+                "title": "Montreal Impact vs Toronto FC",
+                "image": "https://seatgeek.ca/_next/image?url=https%3A%2F%2Fseatgeek.com%2Fimages%2Fperformers-landscape%2Fcf-montreal-69b735%2F9713%2F1500x2000.jpg&w=3840&q=75",
+                "genre": "Soccer",
+                "rating": 4.6,
+                "votes": "14.2K"
+            }
+        ]
+    }
+]

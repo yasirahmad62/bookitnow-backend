@@ -1,0 +1,956 @@
+[
+    {
+      "id": "movie_001",
+      "event_type": "movies",
+      "title": "Galactic Odyssey",
+      "rating": 8.2,
+      "votes": "15.3K",
+      "duration": "2h 15m",
+      "releaseDate": "15 Jul, 2024",
+      "genres": ["Sci-Fi", "Adventure", "Drama"],
+      "languages": ["English", "French", "Spanish"],
+      "formats": ["2D", "3D", "IMAX"],
+      "imgSrc": "https://ih1.redbubble.net/image.4814425150.6540/flat,750x,075,f-pad,750x1000,f8f8f8.jpg",
+      "bgImage": "https://ih1.redbubble.net/image.4814425150.6540/flat,750x,075,f-pad,750x1000,f8f8f8.jpg",
+      "description": "An epic journey through space and time as humanity seeks a new home among the stars.",
+      "cast": [
+        {
+          "name": "Emma Stone",
+          "role": "Captain Sarah Chen"
+        },
+        {
+          "name": "John Boyega",
+          "role": "Dr. Marcus Wright"
+        }
+      ],
+      "crew": [
+        {
+          "name": "Christopher Nolan",
+          "role": "Director"
+        },
+        {
+          "name": "Hans Zimmer",
+          "role": "Composer"
+        }
+      ],
+      "showtimes": {
+        "Toronto": [
+          {
+            "theater": {
+              "id": "tor_theater_001",
+              "name": "Starlight Cinemas",
+              "location": "123 Queen St W, Toronto, ON",
+              "facilities": ["M-Ticket", "Food & Beverage", "Parking"],
+              "nonCancellable": false,
+              "pricing": [
+                { "type": "Normal", "amount": 14, "status": "Available" },
+                { "type": "Premium", "amount": 20, "status": "Filling Fast" }
+              ]
+            },
+            "formats": ["2D", "3D"],
+            "languages": ["English"],
+            "availability": [
+              {
+                "time": "2:00 PM",
+                "status": "available",
+                "availableSeats": 95,
+                "seating_plan": {
+                  "seating_plan_id": "tor_001_001",
+                  "booked_seats": [2, 4,5,16,17,19]
+                }
+              },
+              {
+                "time": "6:30 PM",
+                "status": "available",
+                "availableSeats": 98,
+                "seating_plan": {
+                  "seating_plan_id": "tor_001_002",
+                  "booked_seats": [3, 7]
+                }
+              }
+            ]
+          }
+        ],
+        "Vancouver": [
+          {
+            "theater": {
+              "id": "van_theater_001",
+              "name": "Pacific Place Cinemas",
+              "location": "456 Robson St, Vancouver, BC",
+              "facilities": ["M-Ticket", "Food & Beverage"],
+              "nonCancellable": true,
+              "pricing": [
+                { "type": "Normal", "amount": 13, "status": "Available" },
+                { "type": "Premium", "amount": 19, "status": "Available" }
+              ]
+            },
+            "formats": ["2D", "IMAX"],
+            "languages": ["English", "French"],
+            "availability": [
+              {
+                "time": "3:15 PM",
+                "status": "available",
+                "availableSeats": 97,
+                "seating_plan": {
+                  "seating_plan_id": "van_001_001",
+                  "booked_seats": [2, 6,19]
+                }
+              }
+            ]
+          },
+          {
+            "theater": {
+              "id": "van_theater_002",
+              "name": "Downtown Megaplex",
+              "location": "789 Granville St, Vancouver, BC",
+              "facilities": ["M-Ticket", "Food & Beverage", "Parking"],
+              "nonCancellable": false,
+              "pricing": [
+                { "type": "Normal", "amount": 15, "status": "Available" },
+                { "type": "Premium", "amount": 22, "status": "Filling Fast" }
+              ]
+            },
+            "formats": ["2D", "3D"],
+            "languages": ["English"],
+            "availability": [
+              {
+                "time": "1:00 PM",
+                "status": "available",
+                "availableSeats": 99,
+                "seating_plan": {
+                  "seating_plan_id": "van_002_001",
+                  "booked_seats": [55]
+                }
+              },
+              {
+                "time": "7:45 PM",
+                "status": "available",
+                "availableSeats": 90,
+                "seating_plan": {
+                  "seating_plan_id": "van_002_002",
+                  "booked_seats": []
+                }
+              }
+            ]
+          }
+        ],
+        "Calgary": [
+          {
+            "theater": {
+              "id": "cal_theater_001",
+              "name": "Chinook Centre Cinemas",
+              "location": "6455 Macleod Trail SW, Calgary, AB",
+              "facilities": ["M-Ticket", "Food & Beverage", "Parking"],
+              "nonCancellable": false,
+              "pricing": [
+                { "type": "Normal", "amount": 12, "status": "Available" },
+                { "type": "Premium", "amount": 18, "status": "Available" }
+              ]
+            },
+            "formats": ["2D", "3D"],
+            "languages": ["English"],
+            "availability": [
+              {
+                "time": "4:30 PM",
+                "status": "available",
+                "availableSeats": 98,
+                "seating_plan": {
+                  "seating_plan_id": "cal_001_001",
+                  "booked_seats": []
+                }
+              },
+              {
+                "time": "8:00 PM",
+                "status": "available",
+                "availableSeats": 91,
+                "seating_plan": {
+                  "seating_plan_id": "cal_001_002",
+                  "booked_seats": []
+                }
+              }
+            ]
+          }
+        ],
+        "Montreal": [
+          {
+            "theater": {
+              "id": "mtl_theater_001",
+              "name": "Cinéma du Parc",
+              "location": "3575 Av du Parc, Montréal, QC",
+              "facilities": ["M-Ticket", "Food & Beverage"],
+              "nonCancellable": true,
+              "pricing": [
+                { "type": "Normal", "amount": 11, "status": "Available" },
+                { "type": "Premium", "amount": 17, "status": "Filling Fast" }
+              ]
+            },
+            "formats": ["2D"],
+            "languages": ["French", "English"],
+            "availability": [
+              {
+                "time": "2:45 PM",
+                "status": "available",
+                "availableSeats": 94,
+                "seating_plan": {
+                  "seating_plan_id": "mtl_001_001",
+                  "booked_seats": []
+                }
+              },
+              {
+                "time": "7:15 PM",
+                "status": "available",
+                "availableSeats": 96,
+                "seating_plan": {
+                  "seating_plan_id": "mtl_001_002",
+                  "booked_seats": []
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "movie_002",
+      "event_type": "movies",
+      "title": "The Last Heist",
+      "rating": 7.8,
+      "votes": "9.7K",
+      "duration": "1h 58m",
+      "releaseDate": "22 Jul, 2024",
+      "genres": ["Action", "Thriller", "Crime"],
+      "languages": ["English", "Spanish"],
+      "formats": ["2D", "IMAX"],
+      "imgSrc": "https://wallpapers.com/images/featured/money-heist-segtwbhffwy01w82.jpg",
+      "bgImage": "https://wallpapers.com/images/featured/money-heist-segtwbhffwy01w82.jpg",
+      "description": "A group of skilled thieves attempt one final, daring robbery before retiring, but things don't go as planned.",
+      "cast": [
+        {
+          "name": "Idris Elba",
+          "role": "Jack 'The Ghost' Thompson"
+        },
+        {
+          "name": "Margot Robbie",
+          "role": "Sarah 'The Hacker' Chen"
+        }
+      ],
+      "crew": [
+        {
+          "name": "Guy Ritchie",
+          "role": "Director"
+        },
+        {
+          "name": "Steve McQueen",
+          "role": "Producer"
+        }
+      ],
+      "showtimes": {
+        "Toronto": [
+          {
+            "theater": {
+              "id": "tor_theater_002",
+              "name": "Downtown Cineplex",
+              "location": "10 Dundas St E, Toronto, ON",
+              "facilities": ["M-Ticket", "Food & Beverage", "Parking"],
+              "nonCancellable": false,
+              "pricing": [
+                { "type": "Normal", "amount": 15, "status": "Available" },
+                { "type": "Premium", "amount": 22, "status": "Filling Fast" }
+              ]
+            },
+            "formats": ["2D", "IMAX"],
+            "languages": ["English"],
+            "availability": [
+              {
+                "time": "3:30 PM",
+                "status": "available",
+                "availableSeats": 93,
+                "seating_plan": {
+                  "seating_plan_id": "tor_002_001",
+                  "booked_seats": []
+                }
+              },
+              {
+                "time": "7:00 PM",
+                "status": "available",
+                "availableSeats": 91,
+                "seating_plan": {
+                  "seating_plan_id": "tor_002_002",
+                  "booked_seats": []
+                }
+              }
+            ]
+          }
+        ],
+        "Vancouver": [
+          {
+            "theater": {
+              "id": "van_theater_003",
+              "name": "Scotiabank Theatre",
+              "location": "900 Burrard St, Vancouver, BC",
+              "facilities": ["M-Ticket", "Food & Beverage", "Parking"],
+              "nonCancellable": true,
+              "pricing": [
+                { "type": "Normal", "amount": 14, "status": "Available" },
+                { "type": "Premium", "amount": 20, "status": "Available" }
+              ]
+            },
+            "formats": ["2D", "IMAX"],
+            "languages": ["English"],
+            "availability": [
+              {
+                "time": "4:15 PM",
+                "status": "available",
+                "availableSeats": 95,
+                "seating_plan": {
+                  "seating_plan_id": "van_003_001",
+                  "booked_seats": []
+                }
+              },
+              {
+                "time": "8:30 PM",
+                "status": "available",
+                "availableSeats": 92,
+                "seating_plan": {
+                  "seating_plan_id": "van_003_002",
+                  "booked_seats": []
+                }
+              }
+            ]
+          }
+        ],
+        "Calgary": [
+          {
+            "theater": {
+              "id": "cal_theater_002",
+              "name": "Eau Claire Market Cinemas",
+              "location": "200 Barclay Parade SW, Calgary, AB",
+              "facilities": ["M-Ticket", "Food & Beverage"],
+              "nonCancellable": false,
+              "pricing": [
+                { "type": "Normal", "amount": 13, "status": "Available" },
+                { "type": "Premium", "amount": 19, "status": "Filling Fast" }
+              ]
+            },
+            "formats": ["2D"],
+            "languages": ["English"],
+            "availability": [
+              {
+                "time": "2:45 PM",
+                "status": "available",
+                "availableSeats": 97,
+                "seating_plan": {
+                  "seating_plan_id": "cal_002_001",
+                  "booked_seats": []
+                }
+              }
+            ]
+          }
+        ],
+        "Montreal": [
+          {
+            "theater": {
+              "id": "mtl_theater_002",
+              "name": "Cineplex Forum",
+              "location": "2313 Ste-Catherine St W, Montréal, QC",
+              "facilities": ["M-Ticket", "Food & Beverage", "Parking"],
+              "nonCancellable": false,
+              "pricing": [
+                { "type": "Normal", "amount": 12, "status": "Available" },
+                { "type": "Premium", "amount": 18, "status": "Available" }
+              ]
+            },
+            "formats": ["2D", "IMAX"],
+            "languages": ["English", "French"],
+            "availability": [
+              {
+                "time": "3:30 PM",
+                "status": "available",
+                "availableSeats": 94,
+                "seating_plan": {
+                  "seating_plan_id": "mtl_002_001",
+                  "booked_seats": []
+                }
+              },
+              {
+                "time": "7:45 PM",
+                "status": "available",
+                "availableSeats": 90,
+                "seating_plan": {
+                  "seating_plan_id": "mtl_002_002",
+                  "booked_seats": []
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+        "id": "movie_003",
+        "event_type": "movies",
+        "title": "The Eternal Quest",
+        "rating": 7.5,
+        "votes": "8.2K",
+        "duration": "2h 5m",
+        "releaseDate": "1 Aug, 2024",
+        "genres": ["Fantasy", "Adventure"],
+        "languages": ["English", "German"],
+        "formats": ["2D", "3D"],
+        "imgSrc": "https://shared.steamstatic.com/store_item_assets/steam/apps/1385300/header.jpg",
+        "bgImage": "https://shared.steamstatic.com/store_item_assets/steam/apps/1385300/header.jpg",
+        "description": "A group of unlikely heroes embark on a quest to find an ancient relic that holds the key to saving their world.",
+        "cast": [
+            {
+                "name": "Chris Hemsworth",
+                "role": "Aragorn"
+            },
+            {
+                "name": "Gal Gadot",
+                "role": "Liana"
+            }
+        ],
+        "crew": [
+            {
+                "name": "Peter Jackson",
+                "role": "Director"
+            },
+            {
+                "name": "Howard Shore",
+                "role": "Composer"
+            }
+        ],
+        "showtimes": {
+            "Toronto": [
+                {
+                    "theater": {
+                        "id": "tor_theater_003",
+                        "name": "Maple Leaf Cinemas",
+                        "location": "50 Bloor St W, Toronto, ON",
+                        "facilities": ["M-Ticket", "Food & Beverage"],
+                        "nonCancellable": false,
+                        "pricing": [
+                            { "type": "Normal", "amount": 14, "status": "Available" },
+                            { "type": "Premium", "amount": 20, "status": "Filling Fast" }
+                        ]
+                    },
+                    "formats": ["2D", "3D"],
+                    "languages": ["English"],
+                    "availability": [
+                        {
+                            "time": "1:30 PM",
+                            "status": "available",
+                            "availableSeats": 97,
+                            "seating_plan": {
+                                "seating_plan_id": "tor_003_001",
+                                "booked_seats": []
+                            }
+                        },
+                        {
+                            "time": "6:00 PM",
+                            "status": "available",
+                            "availableSeats": 93,
+                            "seating_plan": {
+                                "seating_plan_id": "tor_003_002",
+                                "booked_seats": []
+                            }
+                        }
+                    ]
+                }
+            ],
+            "Vancouver": [
+                {
+                    "theater": {
+                        "id": "van_theater_004",
+                        "name": "Galaxy Cinemas",
+                        "location": "200 Burrard St, Vancouver, BC",
+                        "facilities": ["M-Ticket", "Food & Beverage", "Parking"],
+                        "nonCancellable": true,
+                        "pricing": [
+                            { "type": "Normal", "amount": 13, "status": "Available" },
+                            { "type": "Premium", "amount": 19, "status": "Available" }
+                        ]
+                    },
+                    "formats": ["2D", "3D"],
+                    "languages": ["English", "German"],
+                    "availability": [
+                        {
+                            "time": "3:00 PM",
+                            "status": "available",
+                            "availableSeats": 96,
+                            "seating_plan": {
+                                "seating_plan_id": "van_004_001",
+                                "booked_seats": []
+                            }
+                        },
+                        {
+                            "time": "8:00 PM",
+                            "status": "available",
+                            "availableSeats": 92,
+                            "seating_plan": {
+                                "seating_plan_id": "van_004_002",
+                                "booked_seats": []
+                            }
+                        }
+                    ]
+                }
+            ],
+            "Calgary": [
+                {
+                    "theater": {
+                        "id": "cal_theater_003",
+                        "name": "Sunridge Spectrum",
+                        "location": "2555 32 St NE, Calgary, AB",
+                        "facilities": ["M-Ticket", "Food & Beverage"],
+                        "nonCancellable": false,
+                        "pricing": [
+                            { "type": "Normal", "amount": 12, "status": "Available" },
+                            { "type": "Premium", "amount": 18, "status": "Available" }
+                        ]
+                    },
+                    "formats": ["2D", "3D"],
+                    "languages": ["English"],
+                    "availability": [
+                        {
+                            "time": "2:00 PM",
+                            "status": "available",
+                            "availableSeats": 98,
+                            "seating_plan": {
+                                "seating_plan_id": "cal_003_001",
+                                "booked_seats": []
+                            }
+                        },
+                        {
+                            "time": "7:00 PM",
+                            "status": "available",
+                            "availableSeats": 95,
+                            "seating_plan": {
+                                "seating_plan_id": "cal_003_002",
+                                "booked_seats": []
+                            }
+                        }
+                    ]
+                }
+            ],
+            "Montreal": [
+                {
+                    "theater": {
+                        "id": "mtl_theater_003",
+                        "name": "Cinema Star",
+                        "location": "100 Rue Ste-Catherine O, Montréal, QC",
+                        "facilities": ["M-Ticket", "Food & Beverage"],
+                        "nonCancellable": true,
+                        "pricing": [
+                            { "type": "Normal", "amount": 11, "status": "Available" },
+                            { "type": "Premium", "amount": 17, "status": "Filling Fast" }
+                        ]
+                    },
+                    "formats": ["2D"],
+                    "languages": ["French", "English"],
+                    "availability": [
+                        {
+                            "time": "2:15 PM",
+                            "status": "available",
+                            "availableSeats": 94,
+                            "seating_plan": {
+                                "seating_plan_id": "mtl_003_001",
+                                "booked_seats": []
+                            }
+                        },
+                        {
+                            "time": "7:30 PM",
+                            "status": "available",
+                            "availableSeats": 90,
+                            "seating_plan": {
+                                "seating_plan_id": "mtl_003_002",
+                                "booked_seats": []
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    {
+        "id": "movie_004",
+        "event_type": "movies",
+        "title": "Mystic River",
+        "rating": 7.9,
+        "votes": "12.3K",
+        "duration": "2h 25m",
+        "releaseDate": "10 Aug, 2024",
+        "genres": ["Drama", "Mystery"],
+        "languages": ["English", "French"],
+        "formats": ["2D", "IMAX"],
+        "imgSrc": "https://live.staticflickr.com/7346/15927443674_cdcef920f1.jpg",
+        "bgImage": "https://live.staticflickr.com/7346/15927443674_cdcef920f1.jpg",
+        "description": "A gripping tale of three childhood friends whose lives are shattered by a devastating tragedy, only to be reunited years later.",
+        "cast": [
+            {
+                "name": "Sean Penn",
+                "role": "Jimmy Markum"
+            },
+            {
+                "name": "Tim Robbins",
+                "role": "Dave Boyle"
+            }
+        ],
+        "crew": [
+            {
+                "name": "Clint Eastwood",
+                "role": "Director"
+            },
+            {
+                "name": "Brian Helgeland",
+                "role": "Screenwriter"
+            }
+        ],
+        "showtimes": {
+            "Toronto": [
+                {
+                    "theater": {
+                        "id": "tor_theater_004",
+                        "name": "Regal Cinemas",
+                        "location": "70 Front St E, Toronto, ON",
+                        "facilities": ["M-Ticket", "Food & Beverage", "Parking"],
+                        "nonCancellable": false,
+                        "pricing": [
+                            { "type": "Normal", "amount": 15, "status": "Available" },
+                            { "type": "Premium", "amount": 22, "status": "Filling Fast" }
+                        ]
+                    },
+                    "formats": ["2D", "IMAX"],
+                    "languages": ["English"],
+                    "availability": [
+                        {
+                            "time": "4:00 PM",
+                            "status": "available",
+                            "availableSeats": 92,
+                            "seating_plan": {
+                                "seating_plan_id": "tor_004_001",
+                                "booked_seats": []
+                            }
+                        },
+                        {
+                            "time": "8:00 PM",
+                            "status": "available",
+                            "availableSeats": 90,
+                            "seating_plan": {
+                                "seating_plan_id": "tor_004_002",
+                                "booked_seats": []
+                            }
+                        }
+                    ]
+                }
+            ],
+            "Vancouver": [
+                {
+                    "theater": {
+                        "id": "van_theater_005",
+                        "name": "Empire Theatres",
+                        "location": "200 Granville St, Vancouver, BC",
+                        "facilities": ["M-Ticket", "Food & Beverage", "Parking"],
+                        "nonCancellable": true,
+                        "pricing": [
+                            { "type": "Normal", "amount": 14, "status": "Available" },
+                            { "type": "Premium", "amount": 20, "status": "Available" }
+                        ]
+                    },
+                    "formats": ["2D", "IMAX"],
+                    "languages": ["English", "French"],
+                    "availability": [
+                        {
+                            "time": "5:00 PM",
+                            "status": "available",
+                            "availableSeats": 93,
+                            "seating_plan": {
+                                "seating_plan_id": "van_005_001",
+                                "booked_seats": []
+                            }
+                        },
+                        {
+                            "time": "9:00 PM",
+                            "status": "available",
+                            "availableSeats": 91,
+                            "seating_plan": {
+                                "seating_plan_id": "van_005_002",
+                                "booked_seats": []
+                            }
+                        }
+                    ]
+                }
+            ],
+            "Calgary": [
+                {
+                    "theater": {
+                        "id": "cal_theater_004",
+                        "name": "Westhills Cinemas",
+                        "location": "165 Stewart Green SW, Calgary, AB",
+                        "facilities": ["M-Ticket", "Food & Beverage"],
+                        "nonCancellable": false,
+                        "pricing": [
+                            { "type": "Normal", "amount": 12, "status": "Available" },
+                            { "type": "Premium", "amount": 18, "status": "Available" }
+                        ]
+                    },
+                    "formats": ["2D", "IMAX"],
+                    "languages": ["English"],
+                    "availability": [
+                        {
+                            "time": "2:30 PM",
+                            "status": "available",
+                            "availableSeats": 96,
+                            "seating_plan": {
+                                "seating_plan_id": "cal_004_001",
+                                "booked_seats": []
+                            }
+                        },
+                        {
+                            "time": "6:30 PM",
+                            "status": "available",
+                            "availableSeats": 94,
+                            "seating_plan": {
+                                "seating_plan_id": "cal_004_002",
+                                "booked_seats": []
+                            }
+                        }
+                    ]
+                }
+            ],
+            "Montreal": [
+                {
+                    "theater": {
+                        "id": "mtl_theater_004",
+                        "name": "Guzzo Cinemas",
+                        "location": "1055 Rue Ste-Catherine O, Montréal, QC",
+                        "facilities": ["M-Ticket", "Food & Beverage"],
+                        "nonCancellable": true,
+                        "pricing": [
+                            { "type": "Normal", "amount": 11, "status": "Available" },
+                            { "type": "Premium", "amount": 17, "status": "Filling Fast" }
+                        ]
+                    },
+                    "formats": ["2D", "IMAX"],
+                    "languages": ["French", "English"],
+                    "availability": [
+                        {
+                            "time": "3:00 PM",
+                            "status": "available",
+                            "availableSeats": 92,
+                            "seating_plan": {
+                                "seating_plan_id": "mtl_004_001",
+                                "booked_seats": []
+                            }
+                        },
+                        {
+                            "time": "7:00 PM",
+                            "status": "available",
+                            "availableSeats": 90,
+                            "seating_plan": {
+                                "seating_plan_id": "mtl_004_002",
+                                "booked_seats": []
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    {
+        "id": "movie_005",
+        "event_type": "movies",
+        "title": "Infinite Horizon",
+        "rating": 8.0,
+        "votes": "14.8K",
+        "duration": "2h 10m",
+        "releaseDate": "20 Aug, 2024",
+        "genres": ["Sci-Fi", "Action"],
+        "languages": ["English", "Japanese"],
+        "formats": ["2D", "3D", "IMAX"],
+        "imgSrc": "https://i.ytimg.com/vi/_K2QJEkTS28/hqdefault.jpg",
+        "bgImage": "https://example.com/infinite-horizon-background.jpg",
+        "description": "In a future where Earth's resources are depleted, a daring pilot leads a mission to find a new home for humanity among the stars.",
+        "cast": [
+            {
+                "name": "Tom Cruise",
+                "role": "Commander John Shepard"
+            },
+            {
+                "name": "Scarlett Johansson",
+                "role": "Dr. Emily Ross"
+            }
+        ],
+        "crew": [
+            {
+                "name": "James Cameron",
+                "role": "Director"
+            },
+            {
+                "name": "John Williams",
+                "role": "Composer"
+            }
+        ],
+        "showtimes": {
+            "Toronto": [
+                {
+                    "theater": {
+                        "id": "tor_theater_005",
+                        "name": "Paramount Theatre",
+                        "location": "259 Richmond St W, Toronto, ON",
+                        "facilities": ["M-Ticket", "Food & Beverage", "Parking"],
+                        "nonCancellable": false,
+                        "pricing": [
+                            { "type": "Normal", "amount": 16, "status": "Available" },
+                            { "type": "Premium", "amount": 24, "status": "Filling Fast" }
+                        ]
+                    },
+                    "formats": ["2D", "3D", "IMAX"],
+                    "languages": ["English"],
+                    "availability": [
+                        {
+                            "time": "4:45 PM",
+                            "status": "available",
+                            "availableSeats": 90,
+                            "seating_plan": {
+                                "seating_plan_id": "tor_005_001",
+                                "booked_seats": []
+                            }
+                        },
+                        {
+                            "time": "9:00 PM",
+                            "status": "available",
+                            "availableSeats": 88,
+                            "seating_plan": {
+                                "seating_plan_id": "tor_005_002",
+                                "booked_seats": []
+                            }
+                        }
+                    ]
+                }
+            ],
+            "Vancouver": [
+                {
+                    "theater": {
+                        "id": "van_theater_006",
+                        "name": "SilverCity Metropolis",
+                        "location": "4700 Kingsway, Burnaby, BC",
+                        "facilities": ["M-Ticket", "Food & Beverage", "Parking"],
+                        "nonCancellable": true,
+                        "pricing": [
+                            { "type": "Normal", "amount": 15, "status": "Available" },
+                            { "type": "Premium", "amount": 21, "status": "Available" }
+                        ]
+                    },
+                    "formats": ["2D", "3D", "IMAX"],
+                    "languages": ["English", "Japanese"],
+                    "availability": [
+                        {
+                            "time": "5:30 PM",
+                            "status": "available",
+                            "availableSeats": 89,
+                            "seating_plan": {
+                                "seating_plan_id": "van_006_001",
+                                "booked_seats": []
+                            }
+                        },
+                        {
+                            "time": "9:45 PM",
+                            "status": "available",
+                            "availableSeats": 86,
+                            "seating_plan": {
+                                "seating_plan_id": "van_006_002",
+                                "booked_seats": []
+                            }
+                        }
+                    ]
+                }
+            ],
+            "Calgary": [
+                {
+                    "theater": {
+                        "id": "cal_theater_005",
+                        "name": "Seton Cineplex",
+                        "location": "19489 Seton Blvd SE, Calgary, AB",
+                        "facilities": ["M-Ticket", "Food & Beverage"],
+                        "nonCancellable": false,
+                        "pricing": [
+                            { "type": "Normal", "amount": 14, "status": "Available" },
+                            { "type": "Premium", "amount": 20, "status": "Available" }
+                        ]
+                    },
+                    "formats": ["2D", "3D", "IMAX"],
+                    "languages": ["English"],
+                    "availability": [
+                        {
+                            "time": "6:15 PM",
+                            "status": "available",
+                            "availableSeats": 88,
+                            "seating_plan": {
+                                "seating_plan_id": "cal_005_001",
+                                "booked_seats": []
+                            }
+                        },
+                        {
+                            "time": "10:00 PM",
+                            "status": "available",
+                            "availableSeats": 85,
+                            "seating_plan": {
+                                "seating_plan_id": "cal_005_002",
+                                "booked_seats": []
+                            }
+                        }
+                    ]
+                }
+            ],
+            "Montreal": [
+                {
+                    "theater": {
+                        "id": "mtl_theater_005",
+                        "name": "AMC Forum",
+                        "location": "2313 Ste-Catherine St W, Montréal, QC",
+                        "facilities": ["M-Ticket", "Food & Beverage"],
+                        "nonCancellable": true,
+                        "pricing": [
+                            { "type": "Normal", "amount": 12, "status": "Available" },
+                            { "type": "Premium", "amount": 18, "status": "Filling Fast" }
+                        ]
+                    },
+                    "formats": ["2D", "3D", "IMAX"],
+                    "languages": ["English", "Japanese"],
+                    "availability": [
+                        {
+                            "time": "4:00 PM",
+                            "status": "available",
+                            "availableSeats": 91,
+                            "seating_plan": {
+                                "seating_plan_id": "mtl_005_001",
+                                "booked_seats": []
+                            }
+                        },
+                        {
+                            "time": "8:00 PM",
+                            "status": "available",
+                            "availableSeats": 89,
+                            "seating_plan": {
+                                "seating_plan_id": "mtl_005_002",
+                                "booked_seats": []
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        "userReviews": [{
+            "rating": 5.0,
+            "title": "Amazing",
+            "description": "Blue Jays have proved once again that they are the best team in the league. The game was thrilling and the atmosphere was electric. Can't wait for the next game!",
+            "author": "Sarah Thompson"
+            },
+            {
+            "rating": 4.0,
+            "title": "What a match",
+            "description": "It was just amazing to watch in the stadium",
+            "author": "David Lee"
+            }]
+    }
+]
