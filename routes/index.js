@@ -93,7 +93,7 @@ router.post("/api/payment_intents", async (req, res) => {
 
 // POST /create-checkout-session
 router.post("/create-checkout-session", async (req, res) => {
-  const { selectedSeats, ticketPrice, convenienceFee } = req.body;
+  const { selectedSeats, ticketPrice, convenienceFee, eventDetails } = req.body;
 
   try {
     const session = await stripe.checkout.sessions.create({
@@ -103,10 +103,10 @@ router.post("/create-checkout-session", async (req, res) => {
           price_data: {
             currency: "usd",
             product_data: {
-              name: "Movie Tickets",
+              name: `Movie Tickets - ${eventDetails.name}`,
               description: `${selectedSeats.join(", ")} ( ${
                 selectedSeats.length
-              } Tickets )`,
+              } Tickets ) for ${eventDetails.date} in ${eventDetails.city}`,
             },
             unit_amount: ticketPrice,
           },
@@ -134,6 +134,7 @@ router.post("/create-checkout-session", async (req, res) => {
     res.status(500).json({ error: error.message });
   }
 });
+
 
 // GET /api/:event_type/:id
 router.get("/:event_type/:id", async (req, res) => {
