@@ -1,7 +1,9 @@
 const mongoose = require('mongoose');
+const { v4: uuidv4 } = require('uuid');
+
 
 const activitySchema = new mongoose.Schema({
-    id: { type: String, unique: true },
+    id: { type: String, unique: true, default: uuidv4 },
     event_type: { type: String, default: 'movie' },
     title: String,
     rating: Number,
