@@ -43,13 +43,11 @@ const getRecommendations = async (userInput) => {
   return recommendations;
 };
 
-
 // GET /api/:event_type
 router.get("/:event_type", async (req, res) => {
   const event_type = req.params.event_type;
   try {
     const filters = {};
-    
     filters.event_type = event_type;
     if (req.query.title)
       filters.title = { $regex: new RegExp(req.query.title, "i") };
@@ -60,12 +58,13 @@ router.get("/:event_type", async (req, res) => {
       filters.formats = { $in: req.query.formats.split(",") };
     if (req.query.city)
       filters["showtimes." + req.query.city] = { $exists: true };
+
     if (event_type === "events" || event_type === "sports") {
       if (req.query.category)
         filters.genres = { $in: req.query.category.split(",") };
     }
     filters.event_type = event_type;
-console.log(filters)
+
     const activities = await ActivityModel.find(filters);
     console.log(activities.length);
     res.json(activities);
