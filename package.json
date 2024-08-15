@@ -14,6 +14,9 @@
     "cors": "^2.8.5",
     "express": "^4.19.2",
     "mongoose": "^8.4.4",
+    "nodemailer": "^6.9.14",
+    "nodemailer-mandrill-transport": "^1.2.0",
+    "react-icons": "^5.2.1",
     "stripe": "^16.4.0",
     "uuid": "^10.0.0"
   },

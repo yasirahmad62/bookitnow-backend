@@ -17,7 +17,7 @@ db.once('open', async function() {
   console.log('Connected to MongoDB');
 
   // Read the JSON file
-  const data = JSON.parse(fs.readFileSync('dummy_data/ersdummy.json', 'utf-8'));
+  const data = JSON.parse(fs.readFileSync('dummy_data/ymovie.json', 'utf-8'));
   const userReviews = JSON.parse(fs.readFileSync('dummy_data/userReviews.json', 'utf-8'));
   // Update availableSeats to 100 for each showtime
   data.forEach(movie => {
@@ -45,7 +45,7 @@ db.once('open', async function() {
 
   // Insert the updated movie data into the MongoDB collection
   try {
-    await ersModel.insertMany(data);
+    await ActivityModel.insertMany(data);
     console.log('ERSSSS data inserted successfully');
   } catch (error) {
     console.error('Error inserting movie data:', error);
