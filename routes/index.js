@@ -48,32 +48,42 @@ const getRecommendations = async (userInput) => {
 router.get("/:event_type", async (req, res) => {
   const event_type = req.params.event_type;
   try {
-    const filters = {};
-    
-    filters.event_type = event_type;
-    if (req.query.title)
+    const filters = { event_type }; // Initialize with event_type directly
+
+    // Apply filters conditionally
+    if (req.query.title) {
       filters.title = { $regex: new RegExp(req.query.title, "i") };
-    if (req.query.genres) filters.genres = { $in: req.query.genres.split(",") };
-    if (req.query.languages)
-      filters.languages = { $in: req.query.languages.split(",") };
-    if (req.query.formats)
-      filters.formats = { $in: req.query.formats.split(",") };
-    if (req.query.city)
-      filters["showtimes." + req.query.city] = { $exists: true };
-    if (event_type === "events" || event_type === "sports") {
-      if (req.query.category)
-        filters.genres = { $in: req.query.category.split(",") };
     }
-    filters.event_type = event_type;
-console.log(filters)
+    if (req.query.genres) {
+      filters.genres = { $in: req.query.genres.split(",") };
+    }
+    if (req.query.languages) {
+      filters.languages = { $in: req.query.languages.split(",") };
+    }
+    if (req.query.formats) {
+      filters.formats = { $in: req.query.formats.split(",") };
+    }
+    if (req.query.city) {
+      filters[`showtimes.${req.query.city}`] = { $exists: true };
+    }
+
+    // Specific handling for events or sports categories
+    if (event_type === "events" || event_type === "sports") {
+      if (req.query.category) {
+        filters.genres = { $in: req.query.category.split(",") };
+      }
+    }
+
+    console.log("Filters:", filters); // Log filters before querying
     const activities = await ActivityModel.find(filters);
-    console.log(activities.length);
+    console.log("Activities found:", activities.length);
+
     res.json(activities);
   } catch (error) {
+    console.error("Error fetching activities:", error);
     res.status(500).json({ message: error.message });
   }
 });
-
 // POST /api/payment_intents
 router.post("/api/payment_intents", async (req, res) => {
   const { amount, payment_method } = req.body;
